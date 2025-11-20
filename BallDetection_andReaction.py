@@ -54,7 +54,7 @@ def initialize_table(width, height):
             "max_offset": 0
         })
 
-
+d
 # === FUNCTION: Set Vertical Movement Limits for Each Rod ===
 def update_rod_limits(rod, height):
     """Ensure players stay visible by limiting rod motion."""
