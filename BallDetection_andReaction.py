@@ -64,7 +64,7 @@ def update_rod_limits(rod, height):
 
     rod["min_offset"] = -(top_y - player_radius)
     rod["max_offset"] = height - bottom_y - player_radius
-
+d
 
 # === TRACKING SETUP ===
 prev_time = time.time()
