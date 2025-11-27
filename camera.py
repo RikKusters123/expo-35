@@ -7,7 +7,7 @@ while True:
     if not ret:
         print("No frame…")
         break
-
+d
     cv2.imshow("Pi Camera", frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
