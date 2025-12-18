@@ -155,7 +155,7 @@ while True:
         active_rod["y_offset"] = max(active_rod["min_offset"], min(new_offset, active_rod["max_offset"]))
 
     # === DRAWING PHASE ===
-    for rod in rods:
+    for rod in rods:        
         x, y_off = int(rod["x"]), int(rod["y_offset"])
         r_color = active_rod_color if rod is active_rod else rod_color
         cv2.line(frame, (x, 0), (x, height), r_color, rod_thickness)
