@@ -18,7 +18,7 @@ PREDICTION_LOOKAHEAD = 8  # How many frames into the future to predict
 VELOCITY_SMOOTHING = 0.7  # 0 to 1 (higher = less jitter, but slower reaction)
 
 # Tracking & Calibration Constants
-SCAN_INTERVAL = 2.0
+SCAN_INTERVAL = 0.3
 PROXIMITY_THRESHOLD = 55
 BALL_RADIUS_DEFAULT = 20
 CALIBRATION_FRAMES = 30
